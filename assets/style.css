@@ -1,0 +1,85 @@
+.card-header {
+    color: azure;
+    background-color: transparent;
+    }
+
+.ddk-container img {
+    border-style: none;
+    max-height: -webkit-fill-available;
+    padding: 0px;
+    margin: 0px;
+    }
+
+.ddk-container .layout-logo img {
+    padding: 0px;
+}
+
+.ddk-container h6 {
+    font-size: 12px;
+}
+
+.ddk-container h1 {
+    font-size: 20px;
+}
+
+.ddk-container h2 {
+    font-size: 17px;
+}
+
+.ddk-container p {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+.ddk-container H5 {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+ format:Format(precision=6, scheme=Scheme.fixed)
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.ddk-container ::-webkit-scrollbar {
+    width: 0.0em;
+}
+/*
+#checklist-selected-style
+.custom-control-input:checked
+~ .custom-control-label::before {
+background-color: #fa7268;
+border-color: #ea6258;
+}
+
+#styled-numeric-input input:invalid {
+  border-color: #dc3545;
+  padding-right: calc(1.5em + 0.75rem);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center right calc(0.375em + 0.1875rem);
+  background-size: calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+  outline: none;
+}*/
